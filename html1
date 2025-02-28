@@ -1,0 +1,227 @@
+<body data-cmplz="1" id="top" class="page-template-default page page-id-142265 page-child parent-pageid-142263 wp-custom-logo env-production singular-valorant-crosshair-generator preload aa-prefix-pro-">    
+        <section class="post-title">
+            <h1>VALORANT Crosshair Creator</h1>
+        </section>
+        <div class="pro-container pro-container--transparent">
+            <div class="crosshair-wrapper">
+                <div id="builder">
+                    <div id="builderImage"></div>
+                    <div id="builderResize"></div>
+                    <div id="builderRight">
+                        <div id="builderTabSelect">
+                            <button class="selected">Primary</button>
+                        </div>
+                        <div id="builderCustomize" class="x-hair-customizer">
+                            <x-chapter data-name="クロスヘア" data-tab="primary">
+                                <div data-name="クロスヘアの色">
+                                    <div class="x-hair-drop" binding="P:c" colorpicker="P:u"></div>
+                                </div>
+                                <div data-name="クロスヘアのカラーコード">
+                                    <div class="x-hair-color" binding="P:u" colordrop="P:c"></div>
+                                </div>
+                                <div data-name="輪郭">
+                                    <div class="x-hair-toggle" binding="P:h"></div>
+                                </div>
+                                <div data-name="輪郭の不透明度">
+                                    <div class="x-hair-slider" binding="P:o"></div>
+                                </div>
+                                <div data-name="輪郭の厚さ">
+                                    <div class="x-hair-slider" binding="P:t"></div>
+                                </div>
+                                <div data-name="センタードット">
+                                    <div class="x-hair-toggle" binding="P:d"></div>
+                                </div>
+                                <div data-name="センタードットの不透明度">
+                                    <div class="x-hair-slider" binding="P:a"></div>
+                                </div>
+                                <div data-name="センタードットのサイズ">
+                                    <div class="x-hair-slider" binding="P:z"></div>
+                                </div>
+                                <div data-name="射撃エラーのオフセットをクロスヘアのオフセットで上書き">
+                                    <div class="x-hair-toggle" binding="P:m"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="インナーライン" data-tab="primary">
+                                <div data-name="インナーラインの表示">
+                                    <div class="x-hair-toggle" binding="P:0b"></div>
+                                </div>
+                                <div data-name="インナーラインの不透明度">
+                                    <div class="x-hair-slider" binding="P:0a"></div>
+                                </div>
+                                <div data-name="インナーラインの長さ">
+                                    <div class="x-hair-slider" binding="P:0l" bindinglink="P:0g" bindinglinked="P:0v"></div>
+                                </div>
+                                <div data-name="インナーラインの暑さ">
+                                    <div class="x-hair-slider" binding="P:0t"></div>
+                                </div>
+                                <div data-name="インナーライン オフセット">
+                                    <div class="x-hair-slider" binding="P:0o"></div>
+                                </div>
+                                <div data-name="移動エラー">
+                                    <div class="x-hair-toggle" binding="P:0m"></div>
+                                </div>
+                                <div data-name="移動エラーの倍率">
+                                    <div class="x-hair-slider" binding="P:0s"></div>
+                                </div>
+                                <div data-name="Firing Error射撃エラー">
+                                    <div class="x-hair-toggle" binding="P:0f"></div>
+                                </div>
+                                <div data-name="射撃エラーの倍率">
+                                    <div class="x-hair-slider" binding="P:0e"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="アウターライン" data-tab="primary">
+                                <div data-name="アウターラインを表示">
+                                    <div class="x-hair-toggle" binding="P:1b"></div>
+                                </div>
+                                <div data-name="アウターラインの不透明度">
+                                    <div class="x-hair-slider" binding="P:1a"></div>
+                                </div>
+                                <div data-name="アウターラインの長さ">
+                                    <div class="x-hair-slider" binding="P:1l" bindinglink="P:1g" bindinglinked="P:1v"></div>
+                                </div>
+                                <div data-name="アウターラインの暑さ">
+                                    <div class="x-hair-slider" binding="P:1t"></div>
+                                </div>
+                                <div data-name="アウターライン オフセット">
+                                    <div class="x-hair-slider" binding="P:1o"></div>
+                                </div>
+                                <div data-name="移動エラー">
+                                    <div class="x-hair-toggle" binding="P:1m"></div>
+                                </div>
+                                <div data-name="移動エラーの倍率">
+                                    <div class="x-hair-slider" binding="P:1s"></div>
+                                </div>
+                                <div data-name="射撃エラー">
+                                    <div class="x-hair-toggle" binding="P:1f"></div>
+                                </div>
+                                <div data-name="射撃エラーの倍率">
+                                    <div class="x-hair-slider" binding="P:1e"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="General" data-tab="ads">
+                                <div data-name="Copy Primary Crosshair">
+                                    <div class="x-hair-toggle" binding="0:p"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="Crosshair" data-tab="ads">
+                                <div data-name="Crosshair Color">
+                                    <div class="x-hair-drop" binding="A:c" colorpicker="A:u"></div>
+                                </div>
+                                <div data-name="Crosshair Color Code">
+                                    <div class="x-hair-color" binding="A:u" colordrop="A:c"></div>
+                                </div>
+                                <div data-name="Outlines">
+                                    <div class="x-hair-toggle" binding="A:h"></div>
+                                </div>
+                                <div data-name="Outline Opacity">
+                                    <div class="x-hair-slider" binding="A:o"></div>
+                                </div>
+                                <div data-name="Outline Thickness">
+                                    <div class="x-hair-slider" binding="A:t"></div>
+                                </div>
+                                <div data-name="Center Dot">
+                                    <div class="x-hair-toggle" binding="A:d"></div>
+                                </div>
+                                <div data-name="Center Dot Opacity">
+                                    <div class="x-hair-slider" binding="A:a"></div>
+                                </div>
+                                <div data-name="Center Dot Thickness">
+                                    <div class="x-hair-slider" binding="A:z"></div>
+                                </div>
+                                <div data-name="Override Firing Error Offset With Crosshair Offset">
+                                    <div class="x-hair-toggle" binding="A:m"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="Inner Lines" data-tab="ads">
+                                <div data-name="Show Inner Lines">
+                                    <div class="x-hair-toggle" binding="A:0b"></div>
+                                </div>
+                                <div data-name="Inner Line Opacity">
+                                    <div class="x-hair-slider" binding="A:0a"></div>
+                                </div>
+                                <div data-name="Inner Line Length">
+                                    <div class="x-hair-slider" binding="A:0l" bindinglink="A:0g" bindinglinked="A:0v"></div>
+                                </div>
+                                <div data-name="Inner Line Thickness">
+                                    <div class="x-hair-slider" binding="A:0t"></div>
+                                </div>
+                                <div data-name="Inner Line Offset">
+                                    <div class="x-hair-slider" binding="A:0o"></div>
+                                </div>
+                                <div data-name="Movement Error">
+                                    <div class="x-hair-toggle" binding="A:0m"></div>
+                                </div>
+                                <div data-name="Movement Error Multiplier">
+                                    <div class="x-hair-slider" binding="A:0s"></div>
+                                </div>
+                                <div data-name="Firing Error">
+                                    <div class="x-hair-toggle" binding="A:0f"></div>
+                                </div>
+                                <div data-name="Firing Error Multiplier">
+                                    <div class="x-hair-slider" binding="A:0e"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="Outer Lines" data-tab="ads">
+                                <div data-name="Show Outer Lines">
+                                    <div class="x-hair-toggle" binding="A:1b"></div>
+                                </div>
+                                <div data-name="Outer Line Opacity">
+                                    <div class="x-hair-slider" binding="A:1a"></div>
+                                </div>
+                                <div data-name="Outer Line Length">
+                                    <div class="x-hair-slider" binding="A:1l" bindinglink="A:1g" bindinglinked="A:1v"></div>
+                                </div>
+                                <div data-name="Outer Line Thickness">
+                                    <div class="x-hair-slider" binding="A:1t"></div>
+                                </div>
+                                <div data-name="Outer Line Offset">
+                                    <div class="x-hair-slider" binding="A:1o"></div>
+                                </div>
+                                <div data-name="Movement Error">
+                                    <div class="x-hair-toggle" binding="A:1m"></div>
+                                </div>
+                                <div data-name="Movement Error Multiplier">
+                                    <div class="x-hair-slider" binding="A:1s"></div>
+                                </div>
+                                <div data-name="Firing Error">
+                                    <div class="x-hair-toggle" binding="A:1f"></div>
+                                </div>
+                                <div data-name="Firing Error Multiplier">
+                                    <div class="x-hair-slider" binding="A:1e"></div>
+                                </div>
+                            </x-chapter>
+                            <x-chapter data-name="General" data-tab="sniper">
+                                <div data-name="Crosshair Color">
+                                    <div class="x-hair-drop" binding="S:c" colorpicker="S:t"></div>
+                                </div>
+                                <div data-name="Crosshair Color Code">
+                                    <div class="x-hair-color" binding="S:t" colordrop="S:c"></div>
+                                </div>
+                                <div data-name="Center Dot">
+                                    <div class="x-hair-toggle" binding="S:d"></div>
+                                </div>
+                                <div data-name="Center Dot Opacity">
+                                    <div class="x-hair-slider" binding="S:o"></div>
+                                </div>
+                                <div data-name="Center Dot Thickness">
+                                    <div class="x-hair-slider" binding="S:s"></div>
+                                </div>
+                            </x-chapter>
+                        </div>
+                        <div id="builderButtons">
+                            <button class="builderButton copy" id="builderCopy">クロスヘアをコピー</button>
+                            <button class="builderButton" id="builderPaste">クロスヘアを挿入</button>
+                            <button class="builderButton" id="builderRandomize">ランダム生成</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</div>
+<script type="text/javascript" src="js/valorant-crosshair-generator.js" id="valorant-crosshair-generator-js"></script>
+</body>
